@@ -1,0 +1,48 @@
+body {
+    background-color: darkslategray;
+}
+.watch {
+    background-color: gray;
+    height: 150px;
+    width: 150px;
+    margin:auto;
+    border-radius: 50%;    
+}
+.rotate-twelve {
+    height: 150px;
+    width: 150px;
+    transform: rotate(deg);
+    
+}
+.twelve {
+    background-color: black;
+    height: 20px;
+    width: 3px;
+    position: relative;
+    top: 0px;
+    left: 74px;
+}
+.watch-center {
+    position: relative;
+    top: 70px;
+    left: 70px;
+    background-color: red;
+    height: 10px;
+    width: 10px;
+
+}
+.rotate-hour {
+    height: 150px;
+    width: 150px;
+    transform: rotate(275deg);
+    position: relative;
+    top: -150px;
+}
+.hour-hand {
+    background-color: black;
+    height: 5px;
+    width: 45px;
+    position: relative;
+    top: 72.5px;
+    left: 72.5px;
+}
